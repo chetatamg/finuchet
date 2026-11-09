@@ -10,8 +10,14 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          
       - name: Build APK
         uses: flet-dev/flet-build-action@v1
         with:
           target: apk
-          runner-python-version: "3.11"
+          # Указываем корень репозитория как рабочую директорию
+          working-directory: .
