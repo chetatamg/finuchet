@@ -1,0 +1,27 @@
+dependencies:
+  cupertino_icons: ^1.0.8
+  flet: 1.0.4
+  flutter:
+    sdk: flutter
+  flutter_web_plugins:
+    sdk: flutter
+  msgpack_dart: ^1.0.1
+  package_info_plus: ^9.0.0
+  path: ^1.9.0
+  path_provider: ^2.1.4
+  serious_python: 5.0.0
+  window_manager: ^0.5.1
+dependency_overrides:
+  flet: 1.0.4
+description: "\u0424\u0438\u043D\u0423\u0447\u0451\u0442 \u2014 \u0443\u0447\u0451\
+  \u0442 \u043B\u0438\u0447\u043D\u044B\u0445 \u0444\u0438\u043D\u0430\u043D\u0441\
+  \u043E\u0432"
+dev_dependencies:
+  flutter_lints: ^2.0.0
+environment:
+  sdk: '>=3.1.5 <4.0.0'
+flutter:
+  uses-material-design: true
+name: finuchet
+publish_to: none
+version: 1.0.0+1
