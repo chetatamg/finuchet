@@ -1,0 +1,9 @@
+[project]
+name = "finance_app"
+version = "0.1.0"
+dependencies = [
+    "flet",
+]
+
+[tool.flet]
+product_name = "Finance App"
